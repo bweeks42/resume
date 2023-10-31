@@ -1,0 +1,124 @@
+\documentclass[10pt]{article}
+\usepackage{parskip}
+\usepackage{supertabular}
+\usepackage{tabularx}
+\newlength{\fullcollw}
+\setlength{\fullcollw}{0.42\textwidth}
+\usepackage{fontspec}
+
+% Social icons
+\usepackage{fontawesome5}
+
+\RequirePackage{graphicx}
+
+\RequirePackage{color}
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage[hidelinks, unicode, draft=falses]{hyperref}
+\setmainfont{Arial}
+\usepackage[normalem]{ulem}
+\usepackage[scale=0.9, top=.4in, bottom=.4in]{geometry}
+\usepackage{titlesec}				
+\usepackage{multicol}
+\usepackage{multirow}
+\titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule]
+\titlespacing{\section}{1pt}{2pt}{2pt}
+\usepackage{enumitem}
+
+\begin{document}
+\pagestyle{empty}
+
+\newcolumntype{C}{>{\centering\arraybackslash}X}
+
+\begin{tabularx}{\linewidth}{@{} C @{}}
+\Huge{Blain Weeks}
+\\
+{\underline{\href{mailto:blainweeks@icloud.com}{\raisebox{-0.05\height}{\faEnvelope} blainweeks@icloud.com}} $|$}
+{\href{tel:+14843431779}{\raisebox{-0.05\height}{\faMobile} (484) 343-1779}}
+\\
+{\underline{\href{https://github.com/bweeks42}{\raisebox{-0.05\height}{\faGithub} GitHub}} $|$}
+{\underline{\href{https://www.linkedin.com/in/blain-weeks-aba724119}{\raisebox{-0.05\height}{\faLinkedin} LinkedIn}} $|$}
+{\underline{\href{https://www.blainweeks.com}{\raisebox{-0.05\height}{\faLink} Website}}}
+\end{tabularx}
+
+\section{Experience}
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\textbf{\uline{Apple}} \hfill \textit{November 2023 - Present}\\[4pt]
+\textbf{\textit{Tools \& Automation Engineer}} \hfill \textit{Apple Pay} \\[5pt]
+\begin{minipage}[t]{\linewidth}
+\begin{itemize}[leftmargin=2em, nosep]%[nosep,after=\strut,leftmargin=2em, itemsep=2pt]
+\item Just started :)
+\end{itemize}
+\end{minipage}
+\end{tabularx}
+
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\textbf{\uline{Capital One}} \hfill \textit{February 2022 - October 2023}\\[4pt]
+\textbf{\textit{Senior Associate Software Engineer}} \hfill \textit{Card Tech} \\[5pt]
+\begin{minipage}[t]{\linewidth}
+\begin{itemize}[leftmargin=2em, nosep, after=\strut, itemsep=2pt]
+\item Completed AWS Cloud Practitioner Certification.
+\item Re-implemented virtual card number service to enable multi-threading.
+\item Designed and implemented software to rotate PGP keys across a distributed system.
+\item Served as production support engineer, resolving time-sensitive issues at all hours.
+\item Contributed to the development of a new direct settlement application, utilizing AWS services such as Lambda, ECS and S3.
+\item Helped manage a team of interns in the development of a tool to test application performance under load.
+\end{itemize}
+\end{minipage}
+\end{tabularx}
+
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\textbf{\uline{Apple}} \hfill \textit{July 2018 - February 2022}\\[4pt]
+\textbf{\textit{Software Engineer}} \hfill \textit{Messages} \\[5pt]
+\begin{minipage}[t]{\linewidth}
+\begin{itemize}[leftmargin=2em, nosep, after=\strut, itemsep=2pt]
+\item Contributed to Messages features, including Name and Photo Sharing, Spoken Messages and Child Safety.
+\item Resolved issues at all levels of the Messages software stack, from data persistence to UI.
+\item Implemented tools to automate running and reporting of unit tests at desk for team.
+\item Developed automated testing suites to exercise the performance and functionality of various Messages features.
+\item Wrote bug triage automation.
+\item Implemented AppleScript hooks for Catalyst implementation of Messages app.
+\item Worked cross-functionally with teams across Apple in design, security, performance, software and others.
+\end{itemize}
+\end{minipage}
+\end{tabularx}
+
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\textbf{\uline{AgilePQ}} \hfill \textit{September 2016 - June 2018}\\[4pt]
+\textbf{\textit{Software Engineer}}\\[5pt]
+\begin{minipage}[t]{\linewidth}
+\begin{itemize}[leftmargin=2em, nosep, after=\strut, itemsep=2pt]
+\item Integrated core security technology into Android and iOS platforms, as well as OpenVPN.
+\item Developed cellular networking code for IoT devices.
+\item Developed documentation using LaTeX for internal and customer use.
+\item Met with customers to explain and demo mobile prototypes.
+\item Developed automated suite to test network code.
+\end{itemize}
+\end{minipage}
+\end{tabularx}
+
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\textbf{\uline{AgilePQ}} \hfill \textit{June 2016 - Semptember 2016}\\[4pt]
+\textbf{\textit{Software Engineering Intern}}\\[5pt]
+\begin{minipage}[t]{\linewidth}
+\begin{itemize}[leftmargin=2em, nosep, after=\strut, itemsep=2pt]
+\item Developed communication protocols to establish secure communication between IoT devices and backend service.
+\item Developed and tested network code for IoT devices.
+\item Reviewed and provided feedback for technical portions of patent applications.
+\end{itemize}
+\end{minipage}
+\end{tabularx}
+
+\section{Education}
+\textbf{California Polytechnic State University}, San Luis Obispo\\
+\textit{B.S. in Software Engineering and Minor in Statistics} (2018)
+
+\section{Expertise}
+\begin{itemize}[leftmargin=2em, nosep, after=\strut, itemsep=2pt]
+\item \textbf{Languages} - Swift, Python, Rust, C, Objective-C
+\item \textbf{Technologies} - AWS, macOS, iOS
+\item \textbf{Domains} - Application Development, Automated Testing
+\end{itemize}
+
+
+\end{document}
+
